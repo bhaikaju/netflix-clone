@@ -1,0 +1,27 @@
+h2 {
+  font-size: x-large;
+  color: white;
+}
+
+img {
+  border-radius: 5px;
+}
+
+.movie {
+  margin: 20px 0;
+
+  .movie__images {
+    div.thumbnails .carousel {
+      width:100%;
+      display: flex;
+      .slick-item {
+        transition: all 0.3s ease;
+      }
+
+      .slick-item:hover {
+        transform: scale(1.02);
+        cursor: pointer;
+      }
+    }
+  }
+}
